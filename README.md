@@ -11,9 +11,10 @@
  
  Tendrá dos métodos:
  
- -Prestar:Comprueba que efectivamentehay ejemplares disponibles para poder hacer el préstamo (que no estén todos prestados). 
+ -Prestar: Comprueba que efectivamentehay ejemplares disponibles para poder hacer el préstamo (que no estén todos prestados). 
  El método devuelve un número entero con el número de ejemplares disponibles en la biblioteca después de este préstamo, 
  o -1 encaso de que no se haya podido hacer (todos los ejemplares estaban prestados).  
+ 
  -Devolver: Comprueba que había ejemplares prestados y en caso afirmativo se devuelve. 
  Se actualizan los atributos necesarios.El métododevuelve un número entero con el número de ejemplares disponibles 
  en la biblioteca después de esta devolución, o -1 encaso de que no se haya podido hacer (no había ejemplares prestados).
@@ -44,12 +45,12 @@
  
  Mostrará por pantalla el siguiente menú:  
  
- 1.Creaellibro  
- 2.Crealarevista  
- 3.Prestaellibro  
+ 1.Crea el libro  
+ 2.Crea la revista  
+ 3.Presta el libro  
  4.Devuelve el libro  
- 5.Prestalarevista  
- 6.Devuelvelarevista  
+ 5.Presta la revista  
+ 6.Devuelve la revista  
  0.Salir
  
  En caso de elegir la opción 1, se creará un objeto de la clase Libro y se pedirá por pantallalos siguientes campos: 
